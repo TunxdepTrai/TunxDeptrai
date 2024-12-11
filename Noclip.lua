@@ -1,6 +1,3 @@
-e GodMode
-        disableGodMode()
-    end
 local Workspace = game:GetService("Workspace")
 local CoreGui = game:GetService("CoreGui")
 local Players = game:GetService("Players")
@@ -37,7 +34,7 @@ Title.BorderColor3 = Color3.new(255, 0, 0)
 Title.BorderSizePixel = 2
 Title.Size = UDim2.new(0, 210, 0, 33)
 Title.Font = Enum.Font.Highway
-Title.Text = "!Tky Noclip"
+Title.Text = "Tunx Noclip & ESP"
 Title.TextColor3 = Color3.new(255, 0, 0)
 Title.FontSize = Enum.FontSize.Size32
 Title.TextSize = 30
@@ -98,9 +95,9 @@ Credit.Size = UDim2.new(0, 128, 0, 17)
 Credit.Font = Enum.Font.SourceSans
 Credit.FontSize = Enum.FontSize.Size18
 Credit.Text = "Developer By Tunx"
-Credit.TextColor3 = Color3.new(255, 255, 255)
-Credit.TextSize = 18
-Credit.TextStrokeColor3 = Color3.new(255, 0, 0)
+Credit.TextColor3 = Color3.new(255, 0, 0)
+Credit.TextSize = 16
+Credit.TextStrokeColor3 = Color3.new(0.196078, 0.196078, 0.196078)
 Credit.TextStrokeTransparency = 0
 Credit.TextWrapped = true
 
@@ -242,4 +239,4 @@ Toggle.MouseButton1Click:Connect(function()
         -- Disable GodMode
         disableGodMode()
     end
-end)end)
+end)
